@@ -1,0 +1,137 @@
+/* This is the proper stylesheet? What's going on here? */
+
+body
+{
+	background-color: #e6e6ff;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: Bahnschrift;
+	overflow: auto;
+}
+
+main div
+{
+	height: 50%;
+}
+
+.sneaky
+{
+	background-color: #e6e6ff;
+	margin-top: -10px;
+	height: 20px;
+	width: 100%;
+	position: sticky;
+	top: 0;
+}
+
+.topbar
+{
+	width:95%;
+	height: 50px;
+	background-color: #d3d3f0;
+	position: fixed;
+	padding-bottom: 40px;
+	padding-top: 10px;
+	border: 2px solid powderblue;
+}
+
+.headline
+{
+	padding-left: 20px;
+	padding-top: -2em;
+	font-size: 2.5em;
+	letter-spacing: 0.3em;
+	color: #b4b4e4;
+	display: inline;
+}
+
+.navbar
+{
+	margin-top: 150px;
+	float: left;
+	position: fixed;
+	border: 0px;
+	padding-left: -40px;
+	width: 200px:
+}
+
+.navbar ul
+{
+	list-style-type: none;
+	margin-top: 20;
+	padding: 0;
+}
+
+.navbar li
+{
+	border: 2px solid rgb(176,176,216);
+	border-radius: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	background-color: rgb(205, 205, 230);
+	width: 200px;
+}
+
+.navbar li a
+{
+	display: block;
+}
+
+main
+{
+	padding-top: 100px;
+	margin-left: 200px;
+	margin-bottom: 50px;
+	padding-right: 40px;
+	padding-left: 40px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+
+table p
+{
+	padding-left: 15px;
+}
+
+.extra
+{
+	border: 0;
+}
+
+
+footer
+{
+	width: 95%;
+	bottom: 0;
+	height: 40px;
+	position: fixed;
+	background-color: #e6e6ff;
+}
+
+.bar
+{
+	width:95%;
+	bottom: 10;
+	height:30px;
+	background-color:#666699;
+	opacity:15%;
+	position: fixed;
+}
+
+h1
+{
+	text-align: center;
+	background-color: rgba(250, 237, 237, 0.8);
+	border: 2px solid #f3d8d8;
+}
+
+h3
+{
+	margin: 0;
+	padding: 0;
+}
+
