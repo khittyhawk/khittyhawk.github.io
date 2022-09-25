@@ -1,22 +1,16 @@
-/* This is the proper stylesheet? What's going on here? */
+*
+{
+	box-sizing: border-box;
+}
 
 body
 {
-	background-color: #e6e6ff;
-	margin-left: 50px;
-	margin-right: 50px;
-	margin-top: 10px;
-	margin-bottom: 10px;
 	font-family: Bahnschrift;
-	overflow: auto;
+	background-color: #e6e6ff;
+	margin: 10px 20px 10px 50px;
 }
 
-main div
-{
-	height: 50%;
-}
-
-.sneaky
+.topbar
 {
 	background-color: #e6e6ff;
 	margin-top: -10px;
@@ -26,86 +20,131 @@ main div
 	top: 0;
 }
 
-.topbar
+.head
 {
-	width:95%;
-	height: 50px;
-	background-color: #d3d3f0;
-	position: fixed;
-	padding-bottom: 40px;
-	padding-top: 10px;
+	width: 95%;
+	height: 100px;
 	border: 2px solid powderblue;
+	position: fixed;
+	background-color: #d3d3f0;
 }
 
-.headline
+.head h2
 {
-	padding-left: 20px;
-	padding-top: -2em;
+	padding-left: 25px;
 	font-size: 2.5em;
 	letter-spacing: 0.3em;
 	color: #b4b4e4;
 	display: inline;
 }
 
-.navbar
+.head p
 {
-	margin-top: 150px;
+	padding-left: 40px;
+}
+
+aside
+{
 	float: left;
 	position: fixed;
-	border: 0px;
-	padding-left: -40px;
-	width: 200px:
+	margin-top: 100px;
 }
 
-.navbar ul
+aside ul
 {
 	list-style-type: none;
-	margin-top: 20;
-	padding: 0;
+	padding: 5px;
 }
 
-.navbar li
+aside ul li, button
 {
-	border: 2px solid rgb(176,176,216);
+	border: 1px solid rgb(176,176,216);
 	border-radius: 5px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	
+	padding: 10px 0 10px 0;
+	
 	text-align: center;
 	background-color: rgb(205, 205, 230);
-	width: 200px;
+	width: 150px;
 }
 
-.navbar li a
+button
 {
-	display: block;
+	color: rgb(120, 120, 190);
 }
+
+button:hover
+{
+	border: 1px solid rgb(76, 76, 116);
+	background-color: rgb(100, 100, 115);
+	color: white;
+	cursor: pointer;
+}
+
+a
+{
+	text-decoration-line: none;
+}
+
+a:visited
+{
+	color: rgb(120, 120, 190)
+}
+
 
 main
 {
-	padding-top: 100px;
-	margin-left: 200px;
-	margin-bottom: 50px;
-	padding-right: 40px;
-	padding-left: 40px;
-	overflow-x: hidden;
-	overflow-y: scroll;
+	margin: 120px 70px 70px 70px;
+	padding-left: 100px;
+}
+
+.gallery a:hover
+{
+	opacity: 55%;
+}
+
+.imgtext
+{
+	position: absolute;
+	top: 25%;
+	left: 40%;
+	font-size: 22px;
+	color: #000000;
+	opacity: 0;
+}
+
+.gallery a:hover .imgtext
+{
+	opacity: 1;
 }
 
 
-table p
+.flexbox
 {
-	padding-left: 15px;
+	display: flex;
 }
 
-.extra
+.cell
 {
-	border: 0;
+	padding-right: 10px;
+}
+
+.cell a:hover
+{
+	font-weight: 800;
+	color: rgb(100, 100, 255);
+}
+
+.box
+{
+	width: 45%;
+	flex-direction: column;
 }
 
 
 footer
 {
-	width: 95%;
+	width: 99%;
 	bottom: 0;
 	height: 40px;
 	position: fixed;
@@ -114,24 +153,10 @@ footer
 
 .bar
 {
-	width:95%;
+	width: 95%;
 	bottom: 10;
 	height:30px;
 	background-color:#666699;
 	opacity:15%;
 	position: fixed;
 }
-
-h1
-{
-	text-align: center;
-	background-color: rgba(250, 237, 237, 0.8);
-	border: 2px solid #f3d8d8;
-}
-
-h3
-{
-	margin: 0;
-	padding: 0;
-}
-
