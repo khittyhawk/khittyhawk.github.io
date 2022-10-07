@@ -3,6 +3,7 @@
 	box-sizing: border-box;
 }
 
+/* All pages */
 body
 {
 	font-family: Bahnschrift;
@@ -98,6 +99,8 @@ main
 	padding-left: 100px;
 }
 
+/* only index */
+
 .gallery a:hover
 {
 	opacity: 55%;
@@ -121,6 +124,7 @@ main
 	opacity: 1;
 }
 
+/* all */
 
 .flexbox
 {
@@ -145,6 +149,8 @@ main
 	flex-direction: column;
 }
 
+/* only ukagaka */
+
 .video
 {
 	width: 100%;
@@ -158,6 +164,44 @@ iframe
 	width: 90%;
 	height: 90%;
 }
+
+/* only ghosts */
+
+.flexgallery
+{
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.cell_gallery img
+{
+	margin: 10px;
+	width: 200px;
+	height: 150px;
+	object-fit: cover;
+}
+
+.cell_gallery img:hover
+{
+	opacity: 50%;
+}
+
+.dropdown-content
+{
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.cell_gallery:hover .dropdown-content
+{
+  display: block;
+}
+
+
+/* all pages */
 
 footer
 {
