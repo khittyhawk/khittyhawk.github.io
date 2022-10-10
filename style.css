@@ -3,6 +3,11 @@
 	box-sizing: border-box;
 }
 
+html
+{
+    scroll-padding-top: 160px;
+}
+
 /* All pages */
 body
 {
